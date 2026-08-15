@@ -2,6 +2,7 @@
 Atividade de Desafio Criativo do Curso da Dio.me : Usando a IA para Extrair Insights de Feedback de Clientes na internet
 
 
+
 PROMPT : 
 
 Atue como analista de dados e experiência do Mercado Bitcoin
@@ -26,6 +27,7 @@ Restrições:
 - Use linguagem simples, direta e voltada para tomada de decisão.
 
 
+
  Resposta do CHATGPT :
  
 Resumo executivo
@@ -34,15 +36,24 @@ O padrão mais recorrente é dificuldade de atendimento, especialmente quando o 
 Pix, saques, depósitos e bloqueios de conta/limites aparecem como situações de maior urgência, pois impedem o cliente de movimentar recursos.
 Há relatos de instabilidade e falhas no aplicativo, inclusive após atualizações, algumas associadas à impossibilidade de visualizar saldo ou operar.
 Apesar dos problemas, existem casos em que a solução foi efetiva após escalonamento, com clientes atribuindo notas altas ao atendimento.
-Análise dos feedbacks encontrados
-Tema	Sentimento	Evidência	Ação sugerida
-Atendimento/chat	🔴 Negativo	“chat robô que não resolve” e dificuldade para conseguir atendimento humano.	Criar escalonamento rápido para atendimento humano, principalmente para bloqueios, dinheiro retido e falhas críticas.
-Pix / depósitos / saques	🔴 Muito negativo / Alta urgência	Há relatos de Pix em processamento, depósitos não compensados e impossibilidade de sacar.	Criar status detalhado da transação, prazo estimado e explicação clara do motivo do bloqueio, além de fila prioritária para dinheiro indisponível.
-Bloqueios / compliance	🔴 Negativo / Alta urgência	Clientes relatam envio de documentos e permanência do bloqueio sem atualização; em alguns casos, posteriormente houve encerramento definitivo da conta.	Informar etapa da análise, documentação pendente e próximo passo, sem deixar o cliente sem informação durante a análise.
+
+Análise dos feedbacks encontrados : 
+Tema  |  Sentimento	 |  Evidência	 |  Ação sugerida
+Atendimento/chat  |	 Negativo	  |  “chat robô que não resolve” e dificuldade para conseguir atendimento humano.	 |  Criar escalonamento rápido para atendimento humano, principalmente para bloqueios, dinheiro retido e falhas críticas.
+
+Pix / depósitos / saques	 |  Muito negativo  |  Alta urgência	Há relatos de Pix em processamento, depósitos não compensados e impossibilidade de sacar.	 |  Criar status detalhado da transação, prazo estimado e explicação clara do motivo do bloqueio, além de fila prioritária para dinheiro indisponível.
+
+Bloqueios / compliance  |  Negativo  |  Alta urgência	Clientes relatam envio de documentos e permanência do bloqueio sem atualização; em alguns casos, posteriormente houve encerramento definitivo da conta.  | 	Informar etapa da análise, documentação pendente e próximo passo, sem deixar o cliente sem informação durante a análise.
+
 Aplicativo / estabilidade	🔴 Negativo	Reclamações de aplicativo que não abre, fecha sozinho, saldo aparentemente zerado e problemas após atualização.	Implantar monitoramento de estabilidade por versão/SO e comunicação automática durante incidentes.
-Cartão / conta digital	🔴 Negativo / Alta urgência	Relatos de dificuldades para ativar conta digital, solicitar cartão, bloqueio e contestação de cobranças.	Revisar jornadas de ativação e cartão; disponibilizar autoatendimento claro para bloqueio, substituição e contestação.
-Investimentos / renda fixa	🔴 Negativo / Alta urgência	Há reclamações sobre valores de investimentos que não foram creditados no vencimento ou ficaram sujeitos a eventos da empresa emissora/parceira.	Melhorar comunicação pré e pós-vencimento: status do ativo, responsável pelo pagamento, prazo e próximos passos em caso de evento adverso.
-Atendimento após solução	🟢 Positivo quando há intervenção humana eficaz	Em um caso, após escalonamento, o cliente informou que recebeu esclarecimentos e deu nota 8; em outro, a solução rápida recebeu nota 10.	Reproduzir o modelo de atendimento dos casos resolvidos: responsável identificado + acompanhamento + explicação objetiva + solução.
+
+Cartão / conta digital	 |  Negativo  |  Alta urgência	Relatos de dificuldades para ativar conta digital, solicitar cartão, bloqueio e contestação de cobranças.  |  Revisar jornadas de ativação e cartão; disponibilizar autoatendimento claro para bloqueio, substituição e contestação.
+
+Investimentos / renda fixa	 |  Negativo  |  Alta urgência	Há reclamações sobre valores de investimentos que não foram creditados no vencimento ou ficaram sujeitos a eventos da empresa emissora/parceira  |	 Melhorar comunicação pré e pós-vencimento: status do ativo, responsável pelo pagamento, prazo e próximos passos em caso de evento adverso.
+
+Atendimento após solução	 | Positivo  |  quando há intervenção humana eficaz	Em um caso, após escalonamento, o cliente informou que recebeu esclarecimentos e deu nota 8; em outro, a solução rápida recebeu nota 10.	 |  Reproduzir o modelo de atendimento dos casos resolvidos: responsável identificado + acompanhamento + explicação objetiva + solução.
+
+
 Sinais importantes para a experiência do cliente
 
 1. O maior atrito não parece ser apenas o problema técnico, mas a combinação “problema + falta de informação”.
@@ -58,6 +69,7 @@ Quando o aplicativo não abre ou Pix/saque ficam indisponíveis, o cliente não 
 Há evidência nos próprios relatos de que uma intervenção posterior, com esclarecimento adequado, consegue recuperar a percepção do cliente.
 
 Como contexto quantitativo, o Reclame Aqui informa que, no período de 01/01/2026 a 30/06/2026, o Mercado Bitcoin recebeu 506 reclamações, respondeu 95,1%, resolveu 87,9% e teve nota média dos consumidores de 6,85 entre as avaliações; portanto, a reputação geral é positiva, mas a nota média das experiências avaliadas mostra espaço relevante para melhoria.
+
 
 3 prioridades para a equipe de CX
 
